@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -14,13 +15,13 @@ function Navbar() {
           </a>
           <ul class="right hide-on-med-and-down">
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="/contact-us">Contact Us</a>
+              <a href="/contactus">Contact Us</a>
             </li>
           </ul>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Jfdc from "../../assets/img/jfdc.jpg";
+import "./HomeStyles.css";
 
 function UnitFeatBlogPost() {
   return (
